@@ -1,0 +1,13 @@
+{
+  "image": "python:3.8-buster",
+  "updateContentCommand": "git clone https://github.com/blury128/priv.git /tmp/priv && cat /tmp/priv/README.md",
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "blury128/priv": {
+          "permissions": "read-all"
+        }
+      }
+    }
+  }
+}
